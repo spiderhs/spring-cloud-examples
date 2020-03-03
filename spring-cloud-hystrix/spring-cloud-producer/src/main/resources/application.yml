@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: spring-cloud-producer
+
+eureka: 
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/ #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址
