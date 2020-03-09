@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-cloud-config-client
+    
+# springboot 1.5.X 以上默认开通了安全认证
+management:
+  security:
+    enabled: false
